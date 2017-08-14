@@ -8,10 +8,6 @@
     <Company>Veccsolutions</Company>
     <Product>Vecc.QuickResponseCodes</Product>
     <Description>QR Code Abstracts</Description>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\Vecc.QuickResponseCodes.Abstractions.xml</DocumentationFile>
   </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|netstandard2.0|AnyCPU'">
-    <DocumentationFile></DocumentationFile>
-  </PropertyGroup>
-
 </Project>
